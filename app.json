@@ -1,17 +1,13 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/discovery/discovery",
-    "pages/notify/notify",
-    "pages/chat/chat",
-    "pages/more/more",
-    "pages/answer/answer",
-    "pages/question/question"
+    "pages/shengyin/discovery",
+    "pages/more/more"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#0068C4",
-    "navigationBarTitleText": "知乎",
+    "navigationBarTitleText": "智能多模态检测系统",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh":true
   },
@@ -22,28 +18,18 @@
     "borderStyle": "white",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "",
+      "text": "视觉",
       "iconPath": "images/index.png",
-      "selectedIconPath": "images/index_focus.png"
+      "selectedIconPath": "images/隐患事件.png"
     }, {
-      "pagePath": "pages/discovery/discovery",
-      "text": "",
-      "iconPath": "images/discovery.png",
+      "pagePath": "pages/shengyin/discovery",
+      "text": "声音",
+      "iconPath": "images/报警分析.png",
       "selectedIconPath": "images/discovery_focus.png"
     }, {
-      "pagePath": "pages/notify/notify",
-      "text": "",
-      "iconPath": "images/ring.png",
-      "selectedIconPath": "images/ring_focus.png"
-    }, {
-      "pagePath": "pages/chat/chat",
-      "text": "",
-      "iconPath": "images/chat.png",
-      "selectedIconPath": "images/chat_focus.png"
-    }, {
       "pagePath": "pages/more/more",
-      "text": "",
-      "iconPath": "images/burger.png",
+      "text": "我的",
+      "iconPath": "images/值班人员.png",
       "selectedIconPath": "images/burger_focus.png"
     }]
   },

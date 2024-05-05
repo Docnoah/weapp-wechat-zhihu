@@ -11,14 +11,14 @@
   </view>
 </scroll-view>
 <view class="container2">
-  <text>常见视觉故障类型</text>
+  <text>常见声音故障类型</text>
 </view>
 <swiper class="swiper" autoplay indicator-dots>
   <swiper-item>
-    <image src="../../images/1.png" ></image>
+    <image src="../../images/2.png" ></image>
   </swiper-item>
   <swiper-item>
-    <image src="../../images/1.png" ></image>
+    <image src="../../images/2.png" ></image>
   </swiper-item>
   <swiper-item>
     <image src="../../images/1.png" ></image>
